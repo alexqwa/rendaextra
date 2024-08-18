@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <main className="bg-[#010101]">
-      <section className="h-[300px] w-full bg-whihfute">
+      <section className="h-[300px] w-full bg-white">
         <h1>Sem essa de erro</h1>
       </section>
       <section className="py-10 w-full max-w-[90%] mx-auto">
