@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-slate-300/30;
+}
+
 * {
   box-sizing: border-box;
 }
