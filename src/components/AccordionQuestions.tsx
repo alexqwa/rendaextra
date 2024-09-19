@@ -65,6 +65,7 @@ export function AccordionQuestions({ from, to }: AccordionQuestionsProps) {
           <Accordion.Item
             className="overflow-hidden first:mt-0 first:rounded-t last:rounded-b focus-within:relative focus-within:z-10"
             value={question.id}
+            key={question.id}
           >
             <Accordion.Trigger className="text-violet11 shadow-mauve6 transition-all hover:bg-mauve2 flex py-6 flex-1 cursor-pointer items-center justify-between bg-white px-5 text-[15px] leading-none shadow-[0_1px_0] w-full group">
               {question.title}
