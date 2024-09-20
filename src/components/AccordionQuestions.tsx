@@ -59,7 +59,11 @@ export function AccordionQuestions({ from, to }: AccordionQuestionsProps) {
   ]
 
   return (
-    <Accordion.Root className="rounded-md divide-y-[1px]" type="multiple">
+    <Accordion.Root
+      className="rounded-md divide-y-[1px]"
+      type="single"
+      collapsible
+    >
       {data.slice(from, to).map((question) => {
         return (
           <Accordion.Item

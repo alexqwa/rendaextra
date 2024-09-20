@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-300/30;
+  @apply bg-slate-300/30 font-sans;
 }
 
 * {

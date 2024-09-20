@@ -16,6 +16,7 @@ const config: Config = {
         ...gray,
       },
       fontFamily: {
+        sans: ["var(--font-inter)"],
         heading: ["var(--font-roboto)"],
         lettering: ["var(--font-poppins)"],
       },
