@@ -136,7 +136,7 @@ export default function Home() {
               </button>
               <div className="border-b border-dashed border-[#3b3b3b] w-full my-5" />
               <span className="font-semibold text-sm text-[#a1a1a1] block mb-5">
-                Tudo no plano "Padrão", mais
+                Tudo no plano &quot;Padrão&quot;, mais
               </span>
               <ul className="space-y-2">
                 <li className="flex items-center gap-[10px]">
@@ -254,7 +254,7 @@ export default function Home() {
               </button>
               <div className="border-b border-dashed border-[#3b3b3b] w-full my-5" />
               <span className="font-semibold text-sm text-[#a1a1a1] block mb-5">
-                Tudo no plano "Padrão", mais
+                Tudo no plano &quot;Padrão&quot;, mais
               </span>
               <ul className="space-y-2">
                 <li className="flex items-center gap-[10px]">
