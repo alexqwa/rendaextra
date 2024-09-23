@@ -1,25 +1,12 @@
 import type { Metadata } from "next"
-import { Inter, Poppins, Roboto } from "next/font/google"
+import { Inter } from "next/font/google"
 import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import "./globals.css"
 
 const inter = Inter({
-  weight: ["400", "500", "700"],
   subsets: ["latin"],
-  variable: "--font-inter",
-})
-
-const roboto = Roboto({
-  weight: ["400", "500", "700"],
-  subsets: ["latin"],
-  variable: "--font-roboto",
-})
-
-const poppins = Poppins({
-  weight: ["400", "600", "700"],
-  subsets: ["latin", "latin-ext"],
-  variable: "--font-poppins",
+  display: "swap",
 })
 
 export const metadata: Metadata = {
@@ -34,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${inter.variable} ${roboto.variable} ${poppins.variable}`}
-      >
+      <body className={inter.className}>
         {children}
         <SpeedInsights />
       </body>
